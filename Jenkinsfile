@@ -26,7 +26,7 @@ pipeline {
             }
             steps {
                 withMaven(options: [findbugsPublisher(), junitPublisher(ignoreAttachments: false)]) {
-                    sh 'mvn clean findbugs:findbugs package'
+                    bat 'mvn clean findbugs:findbugs package'
                 }
             }
             post {
@@ -42,7 +42,7 @@ pipeline {
                     agent any
                     steps {
                        echo 'Run integration tests here...'
-                        sh 'mvn verify'
+                        bat 'mvn verify'
                     }
                 }
             }
@@ -53,7 +53,7 @@ pipeline {
                 branch 'master'
             }
             steps {
-                sh """
+                bat """
             docker kill \$(docker ps -a -q)
             docker build -t ${IMAGE} .
             docker tag ${IMAGE} ${IMAGE}:${VERSION}
