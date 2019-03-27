@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f774829-1301-4f26-b223-a4cbc2b20e32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-    </list>
+    <list default="true" id="6f774829-1301-4f26-b223-a4cbc2b20e32" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/gamepage/api/target/" />
     <ignored path="$PROJECT_DIR$/reviews/impl/target/" />
     <ignored path="$PROJECT_DIR$/details/api/target/" />
@@ -252,7 +250,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23257000" />
+    <option name="totallyTimeSpent" value="23524000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +263,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27801493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
